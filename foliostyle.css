@@ -1,10 +1,5 @@
 @font-face {font-family:Patagonia;src:local("Patagonia"), url(),format("truetype");src: url();}
-@font-face {
-	font-family: Maven;
-	src: local("Maven Pro"), url(http://karenstolzenberg.com/fonts/maven-pro.ttf) format("truetype"); /*non-IE*/
-}
-
-
+@font-face {font-family: Maven;src: local("Maven Pro"), url(http://karenstolzenberg.com/fonts/maven-pro.ttf) format("truetype"); /*non-IE*/}
 
 body{
 	font-family:Maven;
@@ -13,9 +8,12 @@ body{
 	color: #3903fd;
 }
 
-header{font-family:Patagonia; font-size: 3em;}
+header{font-family:Patagonia; font-size: 2.5em;}
+ul{list-style-type: none;}
 
 
-
+.thumb{
+	background-color:#ccc;
+}
 
 
