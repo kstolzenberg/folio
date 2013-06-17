@@ -2,30 +2,34 @@
 	<head>
 		<meta charset=utf-8>
 		<title>k✖r✖n st✖lz✖nb✖rg</title>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 		<script src="mini-gal.js" type="text/javascript" charset="utf-8"></script>
 		<link href="foliostyle.css" rel="stylesheet" type="text/css" media="all">
 		<script type="text/javascript">
-	  		$(document).ready(function(){
-				$("#gallery div").each(function(){
-					$(this).mini_gal();
-				});
-			});
+			$(function(){
+	  			$("#navTabs").tabs();
+	  		});
 		</script>
 	</head>
-
-	<header>
-		Karen Stolzenberg
-	</header>
  
 	<body>
-		<ul><li>Designs</li>
-			<li>Thinks</li>
-			<li>Draws</li>
-			<li>Is about</li>
-		</ul>
+		<div id="wrapper">
+			<header>Karen Stolzenberg</header>
+			<div id="navTabs">
+				<ul>
+					<li><a href="#tabs-1">Designs</a></li>
+					<li><a href="#tabs-2">Thinks</a></li>
+					<li><a href="#tabs-3">Draws</a></li>
+					<li><a href="#tabs-4">Is about</a></li>
+				</ul>
+				<div id="tabs-1" class="content">portfolio thumbs</div>
+				<div id="tabs-2"class="content">praxis</div>
+				<div id="tabs-3"class="content">pixel</div>
+				<div id="tabs-4"class="content">I am an inquisitive designer</div>
+			</div>
+			<footer></footer>
+		</div>
 	</body>
-
-	<footer></footer>
 
 </html>

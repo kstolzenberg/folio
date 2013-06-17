@@ -9,11 +9,15 @@ body{
 }
 
 header{font-family:Patagonia; font-size: 2.5em;}
-ul{list-style-type: none;}
+ul {margin-left:0;list-style-type: none;-webkit-padding-start:0;}
+ul li{float:left; margin-left:0;padding-right:1%;}
+.content{clear:both;}
 
 
 .thumb{
 	background-color:#ccc;
 }
-
+a{color:gray;text-decoration:none;}
+a:active{color:#3903fd;}
+a:hover{color:#3903fd;}
 
