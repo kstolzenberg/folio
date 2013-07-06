@@ -1,32 +1,34 @@
 @font-face {font-family:Patagonia;src:local("Patagonia"), url(),format("truetype");src: url();}
 @font-face {font-family: Maven;src: local("Maven Pro"), url(http://karenstolzenberg.com/fonts/maven-pro.ttf) format("truetype"); /*non-IE*/}
 
-body{
-	font-family:Maven;
-	font-size: 1em;
-	width:100%;
-	color: #3903fd;
-}
+body{font-family:Maven;font-size: 1em;width:100%;color: #3903fd;margin:0;}
+#wrapper{margin:3em 2em 2em 2em;}
+header{font-family:Patagonia; font-size: 2em;}
+.nav{font-family:Patagonia; font-size: 2em;}
 
-header{font-family:Patagonia; font-size: 2.5em;}
-ul {margin-left:0;list-style-type: none;-webkit-padding-start:0;}
-ul li{float:left; margin-left:0;padding-right:1%;}
-.content{clear:both;}
+/*nav list style*/
+ul {margin:0;list-style-type: none;-webkit-padding-start:0;-webkit-margin:0;}
+ul li{float:left; margin-left:0;padding:.5em 2em 0em 0em;}
+.content{clear:both; padding-top:2em;}
 
-
+/*link & tab style*/
 #navTabs .ui-tabs-nav .ui-state-default a{color:gray;}
 #navTabs .ui-tabs-nav .ui-state-active a{color:#3903fd;}
 #navTabs .ui-tabs-nav .ui-state-hover a{color:#3903fd;}
-
+#navTabs a:link{color:gray;text-decoration:none;}
+#navTabs a:visited{color:gray;}
+#navTabs a:active{color:#3903fd;}
+#navTabs a:hover{color:#3903fd;}
 *:focus{outline: 0;}
+header a:link{color::#3903fd;text-decoration:none;}
+header a:visited{color:#3903fd;}
+header a:active{color:#3903fd;}
+header a:hover{font-size:110%;}
 
 .thumb{
 	background-color:#ccc;
 }
 
-a:link{color:gray;text-decoration:none;}
-a:visited{color:gray;}
-a:active{color:#3903fd;}
-a:hover{color:#3903fd;}
+
 
 
