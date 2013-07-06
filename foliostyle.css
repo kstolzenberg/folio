@@ -13,17 +13,20 @@ ul {margin-left:0;list-style-type: none;-webkit-padding-start:0;}
 ul li{float:left; margin-left:0;padding-right:1%;}
 .content{clear:both;}
 
-#tabs .ui-state-active {color:#3903fd;}
-#tabs .ui-tabs-selected {color:#3903fd;}
-#tabs .ui-tabs-active a{color:#3903fd;}
-#tabs .ui-tabs-selected a{color:#3903fd;}
+
+#navTabs .ui-tabs-nav .ui-state-default a{color:gray;}
+#navTabs .ui-tabs-nav .ui-state-active a{color:#3903fd;}
+#navTabs .ui-tabs-nav .ui-state-hover a{color:#3903fd;}
 
 *:focus{outline: 0;}
 
 .thumb{
 	background-color:#ccc;
 }
+
 a:link{color:gray;text-decoration:none;}
-a:hover{color:#3903fd;}
+a:visited{color:gray;}
 a:active{color:#3903fd;}
+a:hover{color:#3903fd;}
+
 
