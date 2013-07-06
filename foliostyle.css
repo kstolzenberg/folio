@@ -13,11 +13,17 @@ ul {margin-left:0;list-style-type: none;-webkit-padding-start:0;}
 ul li{float:left; margin-left:0;padding-right:1%;}
 .content{clear:both;}
 
+#tabs .ui-state-active {color:#3903fd;}
+#tabs .ui-tabs-selected {color:#3903fd;}
+#tabs .ui-tabs-active a{color:#3903fd;}
+#tabs .ui-tabs-selected a{color:#3903fd;}
+
+*:focus{outline: 0;}
 
 .thumb{
 	background-color:#ccc;
 }
-a{color:gray;text-decoration:none;}
-a:active{color:#3903fd;}
+a:link{color:gray;text-decoration:none;}
 a:hover{color:#3903fd;}
+a:active{color:#3903fd;}
 
