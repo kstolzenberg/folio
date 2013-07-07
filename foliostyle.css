@@ -1,24 +1,17 @@
 @font-face {font-family:Patagonia;src:local("Patagonia"), url(),format("truetype");src: url();}
 @font-face {font-family: Maven;src: local("Maven Pro"), url(http://karenstolzenberg.com/fonts/maven-pro.ttf) format("truetype"); /*non-IE*/}
 
-@media (max-width:481px){
-	body{text-align:left;display:block;}
-	ul li{clear:both;margin:auto;}
-}
-
-/*wrapper/4-*/
+@media (max-width:481px){body{text-align:left;display:block;}ul li{clear:both;overflow:hidden;margin:auto;}}
 
 body{font-family:Maven;font-size: 1em;width:100%;color: #000;margin:0;}
-#wrapper{margin:3em 2em 2em 2em;}
 header{font-family:Patagonia; font-size: 2em;}
-.nav{font-family:Patagonia; font-size: 2em;}
+#wrapper{margin:3em 2em 2em 2em;}
+.nav{font-family:Patagonia; font-size: 1.5em;}
 
 /*nav list style*/
 ul {margin:0;list-style-type: none;-webkit-padding-start:0;-webkit-margin:0;}
 ul li{float:left; margin-left:0;padding:.5em 1.5em 0em 0em;}
 .content{clear:both; padding-top:3em;font-size:1em;}
-.thumb{width:15em;height:15em;background-color:#aaa;display:inline-block;margin:0em 1em 1em 0em;}
-
 
 /*link & tab style*/
 #navTabs .ui-tabs-nav .ui-state-default a{color:#aaa;}
