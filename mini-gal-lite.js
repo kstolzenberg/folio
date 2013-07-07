@@ -11,18 +11,6 @@
 		    return result;
 			}
 
-		//expand thumbnail - need to hide all others so float doesn't screw up?
-		$(this).click(function(){
-			$(this).children("img").css({width:624, height:"auto"});
-		});
-
-		var gallery = $(this).children("img");
-
-		//reduce thumbnail
-		$("#backdrop").click(function(){
-			$(gallery).css({width:200, height:"auto"});
-		});
-
 		//rotate through images
 		var arrName = [];
 

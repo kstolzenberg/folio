@@ -4,11 +4,14 @@
 		<title>∴Karen Stolzenberg - Current Work∴</title>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 		<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-		<script src="mini-gal.js" type="text/javascript" charset="utf-8"></script>
+		<script src="mini-gal-lite.js" type="text/javascript" charset="utf-8"></script>
 		<link href="foliostyle.css" rel="stylesheet" type="text/css" media="all">
 		<script type="text/javascript">
 			$(function(){
 	  			$("#navTabs").tabs();
+	  			$("#gallery").each(function(){
+	  				$(this).mini_gal();
+	  			});
 	  		});
 		</script>
 	</head>
@@ -24,7 +27,14 @@
 					<li><a class = "nav" href="#IsAbout">Is about</a></li>
 				</ul>
 
+
 				<div id="Designs" class="content">
+					<div id="gallery">
+						<img class="img1" src = "test1.jpg" alt="oh no" width="200" height="auto">
+						<img class="img2" src = "test2.jpg" alt="oh no" style="display:none;" width="200" height="auto">
+						<img class="img3" src = "test3.jpg" alt="oh no" style="display:none;" width="200" height="auto">
+						<img class="img4" src = "test4.jpg" alt="oh no" style="display:none;"width="200" height="auto">
+						</div>
 					</div>
 				<div id="Thinks"class="content">
 					I write about process, tech and design at praxisparalysis.tumblr.com.
