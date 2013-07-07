@@ -4,41 +4,32 @@
 @media (max-width:481px){body{text-align:left;display:block;}ul li{clear:both;overflow:hidden;margin:auto;}}
 
 body{font-family:Maven;font-size: 1em;width:100%;color: #000;margin:0;}
-header{font-family:Patagonia; font-size: 2em;}
+header{font-family:Patagonia; font-size: 2.5em;}
 #wrapper{margin:3em 2em 2em 2em;}
 .nav{font-family:Patagonia; font-size: 1.5em;}
 
 /*nav list style*/
 ul {margin:0;list-style-type: none;-webkit-padding-start:0;-webkit-margin:0;}
 ul li{float:left; margin-left:0;padding:.5em 1.5em 0em 0em;}
-.content{clear:both; padding-top:3em;font-size:1em;}
+.content{clear:both; padding-top:1em; font-family: Patagonia; font-size:1.5em;}
 
 /*link & tab style*/
-#navTabs .ui-tabs-nav .ui-state-default a{color:#aaa;}
+#navTabs .ui-tabs-nav .ui-state-default a{color:#ccc;}
 #navTabs .ui-tabs-nav .ui-state-active a{color:#000;}
 #navTabs .ui-tabs-nav .ui-state-hover a{color:#000;}
-#navTabs a:link{color:#aaa;text-decoration:none;}
-#navTabs a:visited{color:#aaa;}
+#navTabs a:link{color:#ccc;text-decoration:none;}
+#navTabs a:visited{color:#ccc;}
 #navTabs a:active{color:#000;}
 #navTabs a:hover{color:#000;}
 *:focus{outline: 0;}
 header a:link{color::#000;text-decoration:none;}
 header a:visited{color:#000;}
 header a:active{color:#000;}
-header a:hover{color:#aaa;}
+header a:hover{color:#ccc;}
 
 
-#gallery {width:630px;height:600px;position:static;margin-right: auto; margin-left: auto; text-align: center; cursor:e-resize;}
+#gallery {width:630px;height:600px;position:static; text-align: left; cursor:e-resize;}
 
-#backdrop {
-	position:absolute;
-	top:0px;
-	left:0px;
-	width:100%;
-	height:100%;
-	z-index: -1;
-	cursor:crosshair;
-}
 
 
 
