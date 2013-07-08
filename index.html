@@ -8,7 +8,7 @@
 		<link href="foliostyle.css" rel="stylesheet" type="text/css" media="all">
 		<script type="text/javascript">
 			$(function(){
-	  			$("#navTabs").tabs();
+	  			$(".navTabs").tabs();
 	  			$("#gallery").each(function(){
 	  				$(this).mini_gal();
 	  			});
@@ -19,7 +19,7 @@
 	<body>
 		<div id="wrapper">
 			<header><a href="">Karen Stolzenberg</a></header>
-			<div id="navTabs">
+			<div class="navTabs">
 				<ul>
 					<li><a class = "nav" href="#Designs">Designs</a></li>
 					<li><a class = "nav" href="#Thinks">Thinks</a></li>
@@ -36,16 +36,20 @@
 						</div>
 					</div>
 				<div id="Thinks"class="content">
-					I write about process, tech and design at praxisparalysis.tumblr.com.
+					<article>I write about the intersection of process, tech and design at <a href="http://praxisparalysis.tumblr.com">Praxis Paralysis</a>.
+					<article>
 					</div>
 				<div id="Draws"class="content">
-					<article>I keep a daily sketch blog at sketches.karenstolzenberg.com.
+					<article>I keep a daily blog of sketches and emotional marginalia at <a href="http://sketches.karenstolzenberg.com">Pixel Rhodia</a>. 
+					</article>
 					</div>
 				<div id="IsAbout"class="content">
-					<article>I am an implementor who is interested in the little details that make the big idea. I am deeply interested in the interesection of design, process and technology. I believe in holistic design for the human scale and I think the best design is slightly weird.
-					<p>My professional work has been featured in Interior Design Magazine, AIASF Small Firms Great Projects and Green Source Magazine.</p>
-					<p>I am currently a Designer/Job Captain and run numerous side-projects on the weekends. You can read my resume here and you can find more of me at Github, Instagram, Feedly.</p>
-					<p>Say hello! contact@karenstolzenberg.com</p>
+					<article id="paragraph">
+					<!--<aside><img src="head.jpeg" alt="my face" width= "100px" height="auto" ></aside>-->
+					I am an implementor who is interested in the little details that make the big idea. I am deeply interested in the interesection of design, process and technology. I am keen on minimal whimsy and I think the best design is slightly weird.
+					<p>I am a Designer & Job Captain and I run numerous side-projects on the weekends. You can read my <a href="http://www.linkedin.com/pub/karen-stolzenberg/13/8b8/232">resume</a> or find more of me at <a href="https://github.com/kstolzenberg">Github</a> and <a href="http://instagram.com/krondor">Instagram</a>.</p>
+					<p>My professional work has been featured in <a href="http://www.interiordesign.net/article/563600-Peak_Performance_A_Mega_Office_for_Adobe_by_Rapt_and_WRNS.php">Interior Design Magazine</a>, <a href="">Green Source Magazine</a> and <a href="http://www.aiasf.org/programs/competition/sfgp/2012/different-fur-studios/">AIASF Small Firms Great Projects.</a></p>
+					<p><a href="mailto:contact@karenstolzenberg.com?subject=HI">Say hello!</a></p>
 					</article>
 					</div>
 			</div>

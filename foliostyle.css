@@ -12,15 +12,19 @@ header{font-family:Patagonia; font-size: 2.5em;}
 ul {margin:0;list-style-type: none;-webkit-padding-start:0;-webkit-margin:0;}
 ul li{float:left; margin-left:0;padding:.5em 1.5em 0em 0em;}
 .content{clear:both; padding-top:1em; font-family: Patagonia; font-size:1.5em;}
+#paragraph a:link{color::#000;text-decoration:underline;}
+#paragraph a:visited{color:#000;}
+#paragraph a:active{color:#000;}
+#paragraph a:hover{color:#dd0;}
 
 /*link & tab style*/
-#navTabs .ui-tabs-nav .ui-state-default a{color:#ccc;}
-#navTabs .ui-tabs-nav .ui-state-active a{color:#000;}
-#navTabs .ui-tabs-nav .ui-state-hover a{color:#000;}
-#navTabs a:link{color:#ccc;text-decoration:none;}
-#navTabs a:visited{color:#ccc;}
-#navTabs a:active{color:#000;}
-#navTabs a:hover{color:#000;}
+.navTabs .ui-tabs-nav .ui-state-default a{color:#ccc;}
+.navTabs .ui-tabs-nav .ui-state-active a{color:#000;}
+.navTabs .ui-tabs-nav .ui-state-hover a{color:#000;}
+.navTabs a:link{color:#ccc;text-decoration:none;}
+.navTabs a:visited{color:#ccc;}
+.navTabs a:active{color:#000;}
+.navTabs a:hover{color:#000;}
 *:focus{outline: 0;}
 header a:link{color::#000;text-decoration:none;}
 header a:visited{color:#000;}
@@ -29,6 +33,7 @@ header a:hover{color:#ccc;}
 
 
 #gallery {width:630px;height:600px;position:static; text-align: left; cursor:e-resize;}
+article aside {float:left;margin:0 1em 1em 0;}
 
 
 
