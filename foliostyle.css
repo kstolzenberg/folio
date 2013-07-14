@@ -1,39 +1,39 @@
 @font-face {font-family:Patagonia;src:local("Patagonia"), url(),format("truetype");src: url();}
 @font-face {font-family: Maven;src: local("Maven Pro"), url(http://karenstolzenberg.com/fonts/maven-pro.ttf) format("truetype"); /*non-IE*/}
 
-@media (max-width:481px){body{text-align:left;display:block;}ul li{clear:both;overflow:hidden;margin:auto;}}
+@media all and (max-width:481px){body{text-align:left;display:block;} ul li{clear:both;overflow:hidden;margin:auto;} html,.content{max-width:100%; font-size:.75em;}}
 
 body{font-family:Maven;font-size: 1em;width:100%;color: #000;margin:0;}
-header{font-family:Patagonia; font-size: 2.5em;}
+header{font-family:Patagonia; font-size: 1.14em;}
 #wrapper{margin:3em 2em 2em 2em;}
-.nav{font-family:Patagonia; font-size: 1.5em;}
+.nav{font-family:Patagonia; font-size: 1.14em;}
+.content{width:20em;clear:both; padding-top:1em; font-family: Patagonia; font-size:3em; letter-spacing:.03em;line-height:118.75%; }
+.content img{max-width:100%;}
 
 /*nav list style*/
 ul {margin:0;list-style-type: none;-webkit-padding-start:0;-webkit-margin:0;}
-ul li{float:left; margin-left:0;padding:.5em 1.5em 0em 0em;}
-.content{clear:both; padding-top:1em; font-family: Patagonia; font-size:1.5em;}
+ul li{float:left; margin-left:0;padding:.3em 1em 0em 0em;}
 #paragraph a:link{color::#000;text-decoration:underline;}
 #paragraph a:visited{color:#000;}
 #paragraph a:active{color:#000;}
 #paragraph a:hover{color:#dd0;}
 
 /*link & tab style*/
-.navTabs .ui-tabs-nav .ui-state-default a{color:#ccc;}
+.navTabs .ui-tabs-nav .ui-state-default a{color:#ddd;}
 .navTabs .ui-tabs-nav .ui-state-active a{color:#000;}
 .navTabs .ui-tabs-nav .ui-state-hover a{color:#000;}
-.navTabs a:link{color:#ccc;text-decoration:none;}
-.navTabs a:visited{color:#ccc;}
+.navTabs a:link{color:#ddd;text-decoration:none;}
+.navTabs a:visited{color:#ddd;}
 .navTabs a:active{color:#000;}
 .navTabs a:hover{color:#000;}
 *:focus{outline: 0;}
 header a:link{color::#000;text-decoration:none;}
 header a:visited{color:#000;}
 header a:active{color:#000;}
-header a:hover{color:#ccc;}
+header a:hover{color:#ddd;}
 
-
+/*mini-gal style*/
 #gallery {width:630px;height:600px;position:static; text-align: left; cursor:e-resize;}
-article aside {float:left;margin:0 1em 1em 0;}
 
 
 
