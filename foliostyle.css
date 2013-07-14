@@ -1,14 +1,14 @@
 @font-face {font-family:Patagonia;src:local("Patagonia"), url(),format("truetype");src: url();}
 @font-face {font-family: Maven;src: local("Maven Pro"), url(http://karenstolzenberg.com/fonts/maven-pro.ttf) format("truetype"); /*non-IE*/}
 
-@media all and (max-width:481px){body{text-align:left;display:block;} ul li{clear:both;overflow:hidden;margin:auto;} html,.content{max-width:100%; font-size:.75em;}}
+@media all and (max-width:481px){body{text-align:left;display:block;} ul li{clear:both;overflow:hidden;margin:auto;} html,.content{max-width:100%; font-size:.8em;}#gallery{max-width:100%;}}
 
 body{font-family:Maven;font-size: 1em;width:100%;color: #000;margin:0;}
 header{font-family:Patagonia; font-size: 1.14em;}
 #wrapper{margin:3em 2em 2em 2em;}
 .nav{font-family:Patagonia; font-size: 1.14em;}
-.content{width:20em;clear:both; padding-top:1em; font-family: Patagonia; font-size:3em; letter-spacing:.03em;line-height:118.75%; }
-.content img{max-width:100%;}
+.content{width:20em;clear:both; padding-top:1.5em; font-family: Patagonia; font-size:3em; letter-spacing:.03em;line-height:118.75%; }
+.content img{max-width:100%;padding-top:.1875em;}
 
 /*nav list style*/
 ul {margin:0;list-style-type: none;-webkit-padding-start:0;-webkit-margin:0;}
@@ -33,7 +33,8 @@ header a:active{color:#000;}
 header a:hover{color:#ddd;}
 
 /*mini-gal style*/
-#gallery {width:630px;height:600px;position:static; text-align: left; cursor:e-resize;}
+#gallery {max-width:100%;position:static; text-align: left; cursor:e-resize;}
+#gallery img{max-width:100%;}
 
 
 
