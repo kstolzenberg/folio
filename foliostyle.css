@@ -29,6 +29,7 @@ header{font-family:Patagonia,Arial; font-size: 1em; letter-spacing:0.01em;displa
 .nav{font-family:Patagonia, Arial; font-size: 1em; letter-spacing:0.01em;}
 .nav img{max-width:100%;}
 ul {margin:0;list-style-type: none;-webkit-padding-start:0;-webkit-margin:0;}
+ul, menu, dir {-webkit-margin-before:0em; -webkit-margin-afer:0em;}
 ul li{float:left; margin-left:0;padding:0em 1em 0em 0em;}
 
 /*link & tab style*/
