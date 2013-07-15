@@ -1,4 +1,4 @@
-@font-face {font-family:Patagonia;src:local("Patagonia"), url("Patagonia.ttf"),format("truetype");}
+@font-face {font-family:Patagonia;src:local("Patagonia"), url("Patagonia.ttf") format("truetype");}
 @font-face {font-family: Maven;src: local("Maven Pro"), url("maven-pro.ttf") format("truetype"); /*non-IE*/}
 
 @media all and (max-width:640px) {
@@ -17,7 +17,7 @@
 body{font-family:Maven,Arial; font-size: 1em;width:100%;color: #000;margin:0;}
 header{font-family:Patagonia,Arial; font-size: 1em; letter-spacing:0.01em;display:inline;float:left;}
 #wrapper{margin:3em 2em 2em 2em;}
-.content{width:20em;clear:both; padding-top:1.5em; font-family: Patagonia; font-size:2.875em; letter-spacing:.03em;line-height:118.75%; }
+.content{width:20em;clear:both; padding-top:1.5em; font-family: Patagonia,Arial; font-size:2.875em; letter-spacing:.03em;line-height:118.75%; }
 .content img{max-width:100%;padding-top:.1875em;}
 .content article a:link{color:#000;}
 .content article a:visited{color:#000;}
