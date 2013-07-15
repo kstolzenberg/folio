@@ -1,31 +1,57 @@
 @font-face {font-family:Patagonia;src:local("Patagonia"), url(),format("truetype");src: url();}
 @font-face {font-family: Maven;src: local("Maven Pro"), url(http://karenstolzenberg.com/fonts/maven-pro.ttf) format("truetype"); /*non-IE*/}
 
-@media (max-width:481px){body{text-align:left;display:block;}ul li{clear:both;overflow:hidden;margin:auto;}}
+@media all and (max-width:481px) {
+	body{text-align:left; display:block;} 
+	ul li{clear:both; overflow:hidden; margin:auto;}  
+	body .content{max-width:100%;font-size:26px;} 
+	body #gallery{max-width:100%;} 
+	body #navBar{display:block;padding-left:0em;} }
+
+@media all and (min-width:481px) and (max-width:1000px) {
+	body{text-align:left; display:block;}  
+	body .content{max-width:100%;font-size:36px;} 
+	body #gallery{max-width:100%;} 
+	body #navBar{display:block;padding-left:9.5625em;} }
 
 body{font-family:Maven;font-size: 1em;width:100%;color: #000;margin:0;}
-header{font-family:Patagonia; font-size: 2em;}
+header{font-family:Patagonia; font-size: 1em; letter-spacing:0.01em;display:inline;float:left;}
 #wrapper{margin:3em 2em 2em 2em;}
-.nav{font-family:Patagonia; font-size: 1.5em;}
+.content{width:20em;clear:both; padding-top:1.5em; font-family: Patagonia; font-size:2.875em; letter-spacing:.03em;line-height:118.75%; }
+.content img{max-width:100%;padding-top:.1875em;}
+.content article a:link{color:#000;}
+.content article a:visited{color:#000;}
+.content article a:hover{color:#F43F28;}
+.content article a:active{color:#000;}
 
 /*nav list style*/
+#navBar{display:inline-block; padding-left:32.75em;}
+.nav{font-family:Patagonia; font-size: 1em; letter-spacing:0.01em;}
+.nav img{max-width:100%;}
 ul {margin:0;list-style-type: none;-webkit-padding-start:0;-webkit-margin:0;}
-ul li{float:left; margin-left:0;padding:.5em 1.5em 0em 0em;}
-.content{clear:both; padding-top:3em;font-size:1em;}
+ul li{float:left; margin-left:0;padding:0em 1em 0em 0em;}
 
 /*link & tab style*/
-#navTabs .ui-tabs-nav .ui-state-default a{color:#aaa;}
-#navTabs .ui-tabs-nav .ui-state-active a{color:#000;}
-#navTabs .ui-tabs-nav .ui-state-hover a{color:#000;}
-#navTabs a:link{color:#aaa;text-decoration:none;}
-#navTabs a:visited{color:#aaa;}
-#navTabs a:active{color:#000;}
-#navTabs a:hover{color:#000;}
+.navTabs .ui-tabs-nav .ui-state-default a{color:#ddd;}
+.navTabs .ui-tabs-nav .ui-state-active a{color:#000;}
+.navTabs .ui-tabs-nav .ui-state-hover a{color:#000;}
+.navTabs a:link{color:#ddd;text-decoration:none;}
+.navTabs a:visited{color:#ddd;}
+.navTabs a:hover{color:#000;}
+.navTabs a:active{color:#000;}
 *:focus{outline: 0;}
-header a:link{color::#000;text-decoration:none;}
-header a:visited{color:#000;}
-header a:active{color:#000;}
-header a:hover{color:#aaa;}
+.navTabs header a:link{color::#000;text-decoration:none;}
+.navTabs header a:visited{color:#000;}
+.navTabs header a:hover{color:#F43F28;}
+.navTabs header a:active{color:#000;}
+
+
+/*mini-gal style*/
+#gallery {max-width:100%;position:static; text-align: left; cursor:e-resize;}
+#gallery img{width:100%;}
+
+
+
 
 
 
