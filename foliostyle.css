@@ -19,8 +19,8 @@ header{font-family:Patagonia,Arial; font-size: 1em; letter-spacing:0.01em;displa
 #wrapper{margin:3em 2em 2em 2em;}
 .content{width:20em;clear:both; padding-top:1.5em; font-family: Patagonia,Arial; font-size:2.875em; letter-spacing:.03em;line-height:118.75%; }
 .content img{max-width:100%;padding-top:.1875em;}
-.content article a:link{color:#000;}
-.content article a:visited{color:#000;}
+.content article a:link{color:#F43F28;}
+.content article a:visited{color:#F43F28;}
 .content article a:hover{color:#F43F28;}
 .content article a:active{color:#000;}
 

@@ -14,9 +14,11 @@
 		//rotate through images
 		var arrName = [];
 
-		$(this).children("img").each(function(){
+		$(this).children(".work, img").each(function(){
 			arrName.push($(this).attr("class"))
 			});
+
+		//may need .each loop for each image within figure, get class attribute? bc.attr method only gets FIRST element matched?
 
 		var arrClass = [];
 		var arrClassOffset = [];
